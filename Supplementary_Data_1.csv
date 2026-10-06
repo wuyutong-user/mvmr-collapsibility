@@ -1,0 +1,169 @@
+﻿triad_id,candidate_trait,outcome,working_structural_class,mediator_like_flag,target_specific_adjustment_label,observed_total_marginal_logOR_response,minimum_conditional_F
+T001_BMI_WC_CAD,WC,CAD,Downstream surrogate of exposure,FALSE,Unnecessary,0.337868556848222,1.119570761
+T002_BMI_WC_HF,WC,HF,Downstream surrogate of exposure,FALSE,Unnecessary,0.527809142307002,1.119570761
+T003_BMI_WC_IS,WC,IS,Downstream surrogate of exposure,FALSE,Unnecessary,0.209983180922132,1.15116221
+T004_BMI_WC_TIA,WC,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,-0.349762918432443,1.119570761
+T005_BMI_WC_AAA,WC,AAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.673596595856095,1.106050588
+T006_BMI_WC_TAA,WC,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,-0.538916268105324,1.138999372
+T007_BMI_WC_PVD,WC,PVD,Downstream surrogate of exposure,FALSE,Unnecessary,0.782623102983193,1.119570761
+T008_BMI_WC_PE,WC,PE,Downstream surrogate of exposure,FALSE,Unnecessary,0.718955783580619,1.119570761
+T009_BMI_WC_SAH,WC,SAH,Downstream surrogate of exposure,FALSE,Unnecessary,0.0861504365712507,1.119570761
+T010_BMI_WC_ICH,WC,ICH,Downstream surrogate of exposure,FALSE,Unnecessary,1.46366318234177,1.119570761
+T011_BMI_WC_DVT,WC,DVT,Downstream surrogate of exposure,FALSE,Unnecessary,0.275618652676772,1.119570761
+T012_BMI_WC_AVS,WC,AVS,Downstream surrogate of exposure,FALSE,Unnecessary,0.213226311811934,1.039803576
+T013_BMI_WC_AF,WC,AF,Downstream surrogate of exposure,FALSE,Unnecessary,0.571773964821398,1.119570761
+T014_BMI_WC_HTN,WC,HTN,Downstream surrogate of exposure,FALSE,Unnecessary,0.23094100811425,1.119570761
+T015_BMI_HC_CAD,HC,CAD,Downstream surrogate of exposure,FALSE,Unnecessary,-0.640323742524926,3.988175247
+T016_BMI_HC_HF,HC,HF,Downstream surrogate of exposure,FALSE,Unnecessary,-0.0730995096286911,3.988175247
+T017_BMI_HC_IS,HC,IS,Downstream surrogate of exposure,FALSE,Unnecessary,-0.322151569856194,4.10490077
+T018_BMI_HC_TIA,HC,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,-0.537549842106551,3.988175247
+T019_BMI_HC_AAA,HC,AAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0633595099656904,3.949821646
+T020_BMI_HC_TAA,HC,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.697527064153106,3.699434619
+T021_BMI_HC_PVD,HC,PVD,Downstream surrogate of exposure,FALSE,Unnecessary,-0.647353911115426,3.988175247
+T022_BMI_HC_PE,HC,PE,Downstream surrogate of exposure,FALSE,Unnecessary,0.149398527193866,3.988175247
+T023_BMI_HC_SAH,HC,SAH,Downstream surrogate of exposure,FALSE,Unnecessary,-0.642135486955567,3.988175247
+T024_BMI_HC_ICH,HC,ICH,Downstream surrogate of exposure,FALSE,Unnecessary,-0.324248173024313,3.988175247
+T025_BMI_HC_DVT,HC,DVT,Downstream surrogate of exposure,FALSE,Unnecessary,-0.0165072149412278,3.988175247
+T026_BMI_HC_AVS,HC,AVS,Downstream surrogate of exposure,FALSE,Unnecessary,-0.275547186961832,4.156740223
+T027_BMI_HC_AF,HC,AF,Downstream surrogate of exposure,FALSE,Unnecessary,0.511634184828688,3.988175247
+T028_BMI_HC_HTN,HC,HTN,Downstream surrogate of exposure,FALSE,Unnecessary,-0.438772711679168,3.988175247
+T029_BMI_SBP_CAD,SBP,CAD,Downstream surrogate of exposure,TRUE,Overadjustment,0.178412859615152,20.69464596
+T030_BMI_SBP_HF,SBP,HF,Downstream surrogate of exposure,TRUE,Overadjustment,0.170212509791822,20.69464596
+T031_BMI_SBP_IS,SBP,IS,Downstream surrogate of exposure,TRUE,Unclassified,0.204210294257708,19.54145995
+T032_BMI_SBP_TIA,SBP,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,0.167425254596379,20.69464596
+T033_BMI_SBP_AAA,SBP,AAA,Downstream surrogate of exposure,TRUE,Overadjustment,0.11305238043472,20.02137116
+T034_BMI_SBP_TAA,SBP,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.100538860449249,20.99399859
+T035_BMI_SBP_PVD,SBP,PVD,Downstream surrogate of exposure,TRUE,Overadjustment,0.154511845774989,20.69464596
+T036_BMI_SBP_PE,SBP,PE,Downstream surrogate of exposure,TRUE,Overadjustment,0.0564018036877774,20.69464596
+T037_BMI_SBP_SAH,SBP,SAH,Downstream surrogate of exposure,TRUE,Overadjustment,0.178993745487839,20.69464596
+T038_BMI_SBP_ICH,SBP,ICH,Downstream surrogate of exposure,TRUE,Overadjustment,0.143940465851018,20.69464596
+T039_BMI_SBP_DVT,SBP,DVT,Downstream surrogate of exposure,TRUE,Overadjustment,0.0684643343529958,20.69464596
+T040_BMI_SBP_AVS,SBP,AVS,Downstream surrogate of exposure,TRUE,Overadjustment,0.19743718137763,20.69033253
+T041_BMI_SBP_AF,SBP,AF,Downstream surrogate of exposure,TRUE,Overadjustment,0.141760462375151,20.69464596
+T042_BMI_SBP_HTN,SBP,HTN,Collider,FALSE,Unclassified,0.229230396123069,20.69464596
+T043_BMI_DBP_CAD,DBP,CAD,Independent cause,FALSE,Unnecessary,0.25087729399985,17.79718879
+T044_BMI_DBP_HF,DBP,HF,Independent cause,FALSE,Unnecessary,0.233004445508519,17.79718879
+T045_BMI_DBP_IS,DBP,IS,Independent cause,FALSE,Unnecessary,0.239128358873195,16.22747856
+T046_BMI_DBP_TIA,DBP,TIA,Independent cause,FALSE,Unnecessary,0.181550834917952,17.79718879
+T047_BMI_DBP_AAA,DBP,AAA,Independent cause,FALSE,Unnecessary,0.245528599765305,17.60376906
+T048_BMI_DBP_TAA,DBP,TAA,Independent cause,FALSE,Unnecessary,0.395725819229286,17.8392654
+T049_BMI_DBP_PVD,DBP,PVD,Independent cause,FALSE,Unnecessary,0.187114596648081,17.79718879
+T050_BMI_DBP_PE,DBP,PE,Independent cause,FALSE,Unnecessary,0.180101271821191,17.79718879
+T051_BMI_DBP_SAH,DBP,SAH,Independent cause,FALSE,Unnecessary,0.22382866777909,17.79718879
+T052_BMI_DBP_ICH,DBP,ICH,Independent cause,FALSE,Unnecessary,0.212570158490164,17.79718879
+T053_BMI_DBP_DVT,DBP,DVT,Independent cause,FALSE,Unnecessary,0.143565889811936,17.79718879
+T054_BMI_DBP_AVS,DBP,AVS,Independent cause,FALSE,Unnecessary,0.195326693786612,17.34708671
+T055_BMI_DBP_AF,DBP,AF,Independent cause,FALSE,Unnecessary,0.186586068312734,17.79718879
+T056_BMI_DBP_HTN,DBP,HTN,Independent cause,FALSE,Unnecessary,0.304248442250483,17.79718879
+T057_BMI_TC_CAD,TC,CAD,Upstream surrogate of exposure,FALSE,Unnecessary,-0.09408915925046,42.28166769
+T058_BMI_TC_HF,TC,HF,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0504505223763237,42.28166769
+T059_BMI_TC_IS,TC,IS,Upstream surrogate of exposure,FALSE,Unnecessary,-0.032863128597545,43.72473429
+T060_BMI_TC_TIA,TC,TIA,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0254994976169675,42.28166769
+T061_BMI_TC_AAA,TC,AAA,Confounder,FALSE,Necessary,-0.13200397092145,42.18481826
+T062_BMI_TC_TAA,TC,TAA,Upstream surrogate of exposure,FALSE,Unnecessary,0.00181937290847012,42.90575017
+T063_BMI_TC_PVD,TC,PVD,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0501524357407231,42.28166769
+T064_BMI_TC_PE,TC,PE,Upstream surrogate of exposure,FALSE,Unnecessary,0.00690510212198214,42.28166769
+T065_BMI_TC_SAH,TC,SAH,Upstream surrogate of exposure,FALSE,Unnecessary,0.0331675215681358,42.28166769
+T066_BMI_TC_ICH,TC,ICH,Upstream surrogate of exposure,FALSE,Unnecessary,0.0124995122847226,42.28166769
+T067_BMI_TC_DVT,TC,DVT,Confounder,FALSE,Necessary,0.0174183588474576,42.28166769
+T068_BMI_TC_AVS,TC,AVS,Confounder,FALSE,Necessary,-0.170136332091568,43.51685996
+T069_BMI_TC_AF,TC,AF,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0312318867524722,42.28166769
+T070_BMI_TC_HTN,TC,HTN,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0134000869040959,42.28166769
+T071_BMI_HDL_C_CAD,HDL-C,CAD,Collider,FALSE,Unclassified,0.0966804425499492,35.49155172
+T072_BMI_HDL_C_HF,HDL-C,HF,Downstream surrogate of exposure,FALSE,Unnecessary,0.050081487498306,35.49155172
+T073_BMI_HDL_C_IS,HDL-C,IS,Downstream surrogate of exposure,FALSE,Unnecessary,0.054319736405805,35.65972091
+T074_BMI_HDL_C_TIA,HDL-C,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0310317944621228,35.49155172
+T075_BMI_HDL_C_AAA,HDL-C,AAA,Downstream surrogate of exposure,TRUE,Overadjustment,0.244475010429853,35.36359338
+T076_BMI_HDL_C_TAA,HDL-C,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,-0.0328625399531334,35.60638279
+T077_BMI_HDL_C_PVD,HDL-C,PVD,Downstream surrogate of exposure,FALSE,Unnecessary,0.0937182476229949,35.49155172
+T078_BMI_HDL_C_PE,HDL-C,PE,Downstream surrogate of exposure,FALSE,Unnecessary,0.000845592430905096,35.49155172
+T079_BMI_HDL_C_SAH,HDL-C,SAH,Downstream surrogate of exposure,FALSE,Unnecessary,0.07495059676166,35.49155172
+T080_BMI_HDL_C_ICH,HDL-C,ICH,Downstream surrogate of exposure,TRUE,Overadjustment,0.177285497374909,35.49155172
+T081_BMI_HDL_C_DVT,HDL-C,DVT,Downstream surrogate of exposure,FALSE,Unnecessary,0.0116970889058204,35.49155172
+T082_BMI_HDL_C_AVS,HDL-C,AVS,Downstream surrogate of exposure,FALSE,Unnecessary,0.0373933055710585,38.17383594
+T083_BMI_HDL_C_AF,HDL-C,AF,Collider,FALSE,Unclassified,0.0333430518584483,35.49155172
+T084_BMI_HDL_C_HTN,HDL-C,HTN,Downstream surrogate of exposure,FALSE,Unnecessary,0.058928971490648,35.49155172
+T085_BMI_LDL_C_CAD,LDL-C,CAD,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0594043246321225,43.93249369
+T086_BMI_LDL_C_HF,LDL-C,HF,Confounder,FALSE,Necessary,-0.0237785904261784,43.93249369
+T087_BMI_LDL_C_IS,LDL-C,IS,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0241457329879348,45.0517202
+T088_BMI_LDL_C_TIA,LDL-C,TIA,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0137663805522283,43.93249369
+T089_BMI_LDL_C_AAA,LDL-C,AAA,Upstream surrogate of exposure,FALSE,Unnecessary,-0.100688156367097,44.03269497
+T090_BMI_LDL_C_TAA,LDL-C,TAA,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0169763581317037,44.70821241
+T091_BMI_LDL_C_PVD,LDL-C,PVD,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0487237788287725,43.93249369
+T092_BMI_LDL_C_PE,LDL-C,PE,Upstream surrogate of exposure,FALSE,Unnecessary,0.00264678036228949,43.93249369
+T093_BMI_LDL_C_SAH,LDL-C,SAH,Upstream surrogate of exposure,FALSE,Unnecessary,0.0144196005718511,43.93249369
+T094_BMI_LDL_C_ICH,LDL-C,ICH,Upstream surrogate of exposure,FALSE,Unnecessary,0.000771880227735111,43.93249369
+T095_BMI_LDL_C_DVT,LDL-C,DVT,Upstream surrogate of exposure,FALSE,Unnecessary,0.00905676056673366,43.93249369
+T096_BMI_LDL_C_AVS,LDL-C,AVS,Confounder,FALSE,Necessary,-0.104951928279388,44.80715347
+T097_BMI_LDL_C_AF,LDL-C,AF,Upstream surrogate of exposure,FALSE,Unnecessary,-0.0149242061410795,43.93249369
+T098_BMI_LDL_C_HTN,LDL-C,HTN,Upstream surrogate of exposure,FALSE,Unnecessary,-0.00772350002324151,43.93249369
+T099_BMI_TG_CAD,TG,CAD,Independent cause,FALSE,Unnecessary,0.0772527956882462,40.1371067
+T100_BMI_TG_HF,TG,HF,Independent cause,FALSE,Unnecessary,0.0565856917965144,40.1371067
+T101_BMI_TG_IS,TG,IS,Independent cause,FALSE,Unnecessary,0.0204936648499603,41.95086488
+T102_BMI_TG_TIA,TG,TIA,Independent cause,FALSE,Unnecessary,0.0331087968203404,40.1371067
+T103_BMI_TG_AAA,TG,AAA,Independent cause,FALSE,Unnecessary,0.119227964651845,40.58305244
+T104_BMI_TG_TAA,TG,TAA,Independent cause,FALSE,Unnecessary,0.0157201729383126,40.51258265
+T105_BMI_TG_PVD,TG,PVD,Independent cause,FALSE,Unnecessary,0.0692657502103693,40.1371067
+T106_BMI_TG_PE,TG,PE,Independent cause,FALSE,Unnecessary,0.0129266316929246,40.1371067
+T107_BMI_TG_SAH,TG,SAH,Independent cause,FALSE,Unnecessary,0.0797756418886786,40.1371067
+T108_BMI_TG_ICH,TG,ICH,Independent cause,FALSE,Unnecessary,0.0473740082562276,40.1371067
+T109_BMI_TG_DVT,TG,DVT,Independent cause,FALSE,Unnecessary,-0.00406412675707768,40.1371067
+T110_BMI_TG_AVS,TG,AVS,Independent cause,FALSE,Unnecessary,0.0597308171284796,41.33696632
+T111_BMI_TG_AF,TG,AF,Independent cause,FALSE,Unnecessary,0.00887687903520007,40.1371067
+T112_BMI_TG_HTN,TG,HTN,Independent cause,FALSE,Unnecessary,0.0476970285547992,40.1371067
+T113_BMI_Glucose_CAD,Glucose,CAD,Downstream surrogate of exposure,TRUE,Overadjustment,0.0283363906044438,29.64580777
+T114_BMI_Glucose_HF,Glucose,HF,Collider,FALSE,Unclassified,0.0242411441494768,29.64580777
+T115_BMI_Glucose_IS,Glucose,IS,Downstream surrogate of exposure,TRUE,Unclassified,0.0439318478735651,20.08536343
+T116_BMI_Glucose_TIA,Glucose,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,-0.00104289548574354,29.64580777
+T117_BMI_Glucose_AAA,Glucose,AAA,Collider,FALSE,Unclassified,0.00148987494263747,25.73297457
+T118_BMI_Glucose_TAA,Glucose,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,-0.0041249899255027,30.43220558
+T119_BMI_Glucose_PVD,Glucose,PVD,Downstream surrogate of exposure,FALSE,Unnecessary,0.0368329554685686,29.64580777
+T120_BMI_Glucose_PE,Glucose,PE,Downstream surrogate of exposure,FALSE,Unnecessary,0.00565415367427335,29.64580777
+T121_BMI_Glucose_SAH,Glucose,SAH,Downstream surrogate of exposure,FALSE,Unnecessary,0.000267188473070723,29.64580777
+T122_BMI_Glucose_ICH,Glucose,ICH,Downstream surrogate of exposure,FALSE,Unnecessary,0.0139584576961529,29.64580777
+T123_BMI_Glucose_DVT,Glucose,DVT,Downstream surrogate of exposure,FALSE,Unnecessary,0.0110850831831866,29.64580777
+T124_BMI_Glucose_AVS,Glucose,AVS,Downstream surrogate of exposure,FALSE,Unnecessary,0.0138745726235144,30.91007519
+T125_BMI_Glucose_AF,Glucose,AF,Downstream surrogate of exposure,FALSE,Unnecessary,-0.00664120643525201,29.64580777
+T126_BMI_Glucose_HTN,Glucose,HTN,Downstream surrogate of exposure,TRUE,Overadjustment,0.0153363573060721,29.64580777
+T127_BMI_HbA1c_CAD,HbA1c,CAD,Downstream surrogate of exposure,FALSE,Unnecessary,0.0571753771468706,34.45581965
+T128_BMI_HbA1c_HF,HbA1c,HF,Downstream surrogate of exposure,FALSE,Unnecessary,0.0357449553961948,34.45581965
+T129_BMI_HbA1c_IS,HbA1c,IS,Downstream surrogate of exposure,TRUE,Unclassified,0.0312243652011019,35.6900749
+T130_BMI_HbA1c_TIA,HbA1c,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0206762646997164,34.45581965
+T131_BMI_HbA1c_AAA,HbA1c,AAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0242476304772745,34.79416574
+T132_BMI_HbA1c_TAA,HbA1c,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0156901533727964,34.57521728
+T133_BMI_HbA1c_PVD,HbA1c,PVD,Downstream surrogate of exposure,FALSE,Unnecessary,0.0746469238465349,34.45581965
+T134_BMI_HbA1c_PE,HbA1c,PE,Downstream surrogate of exposure,FALSE,Unnecessary,0.0295926960276958,34.45581965
+T135_BMI_HbA1c_SAH,HbA1c,SAH,Downstream surrogate of exposure,FALSE,Unnecessary,0.0387638875018141,34.45581965
+T136_BMI_HbA1c_ICH,HbA1c,ICH,Downstream surrogate of exposure,FALSE,Unnecessary,0.0328902323682324,34.45581965
+T137_BMI_HbA1c_DVT,HbA1c,DVT,Downstream surrogate of exposure,FALSE,Unnecessary,0.011132219679719,34.45581965
+T138_BMI_HbA1c_AVS,HbA1c,AVS,Downstream surrogate of exposure,TRUE,Overadjustment,0.0639711493501183,35.68813571
+T139_BMI_HbA1c_AF,HbA1c,AF,Downstream surrogate of exposure,FALSE,Unnecessary,0.0179176858490474,34.45581965
+T140_BMI_HbA1c_HTN,HbA1c,HTN,Downstream surrogate of exposure,FALSE,Unnecessary,0.0320438059766017,34.45581965
+T141_BMI_Smoking_CAD,Smoking,CAD,Downstream surrogate of exposure,TRUE,Overadjustment,0.0786155527688081,3.263304376
+T142_BMI_Smoking_HF,Smoking,HF,Downstream surrogate of exposure,FALSE,Unnecessary,0.0412144534296534,3.263304376
+T143_BMI_Smoking_IS,Smoking,IS,Downstream surrogate of exposure,FALSE,Unnecessary,0.0839783573759345,3.253986045
+T144_BMI_Smoking_TIA,Smoking,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0452795504633307,3.263304376
+T145_BMI_Smoking_AAA,Smoking,AAA,Collider,FALSE,Unclassified,0.162940457350065,3.125422041
+T146_BMI_Smoking_TAA,Smoking,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.113710395084046,3.304360712
+T147_BMI_Smoking_PVD,Smoking,PVD,Downstream surrogate of exposure,TRUE,Overadjustment,0.183811898984328,3.263304376
+T148_BMI_Smoking_PE,Smoking,PE,Downstream surrogate of exposure,FALSE,Unnecessary,0.118668402169984,3.263304376
+T149_BMI_Smoking_SAH,Smoking,SAH,Downstream surrogate of exposure,FALSE,Unnecessary,0.11585599492853,3.263304376
+T150_BMI_Smoking_ICH,Smoking,ICH,Downstream surrogate of exposure,FALSE,Unnecessary,-0.00741944363664504,3.263304376
+T151_BMI_Smoking_DVT,Smoking,DVT,Downstream surrogate of exposure,FALSE,Unnecessary,0.0523074359241542,3.263304376
+T152_BMI_Smoking_AVS,Smoking,AVS,Downstream surrogate of exposure,FALSE,Unnecessary,0.0663607157520698,2.867885097
+T153_BMI_Smoking_AF,Smoking,AF,Collider,FALSE,Unclassified,0.0257684203268741,3.263304376
+T154_BMI_Smoking_HTN,Smoking,HTN,Downstream surrogate of exposure,FALSE,Unnecessary,0.0409333291726556,3.263304376
+T155_BMI_Alcohol_CAD,Alcohol,CAD,Downstream surrogate of exposure,TRUE,Overadjustment,-0.00226926074983891,1.750484641
+T156_BMI_Alcohol_HF,Alcohol,HF,Collider,FALSE,Unclassified,0.0129372468075301,1.750484641
+T157_BMI_Alcohol_IS,Alcohol,IS,Downstream surrogate of exposure,FALSE,Unnecessary,-0.0138260427068514,1.622000826
+T158_BMI_Alcohol_TIA,Alcohol,TIA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0214417440674972,1.750484641
+T159_BMI_Alcohol_AAA,Alcohol,AAA,Downstream surrogate of exposure,TRUE,Overadjustment,-0.0206078928487298,1.747899008
+T160_BMI_Alcohol_TAA,Alcohol,TAA,Downstream surrogate of exposure,FALSE,Unnecessary,0.0811496464225205,1.767340447
+T161_BMI_Alcohol_PVD,Alcohol,PVD,Downstream surrogate of exposure,TRUE,Overadjustment,0.0298538276309471,1.750484641
+T162_BMI_Alcohol_PE,Alcohol,PE,Downstream surrogate of exposure,FALSE,Unnecessary,0.043667399798169,1.750484641
+T163_BMI_Alcohol_SAH,Alcohol,SAH,Downstream surrogate of exposure,FALSE,Unnecessary,-0.0659337812963843,1.750484641
+T164_BMI_Alcohol_ICH,Alcohol,ICH,Downstream surrogate of exposure,FALSE,Unnecessary,0.0837262739017453,1.750484641
+T165_BMI_Alcohol_DVT,Alcohol,DVT,Downstream surrogate of exposure,FALSE,Unnecessary,0.0247299920901959,1.750484641
+T166_BMI_Alcohol_AVS,Alcohol,AVS,Downstream surrogate of exposure,TRUE,Overadjustment,0.0184448887657604,1.794061464
+T167_BMI_Alcohol_AF,Alcohol,AF,Collider,FALSE,Unclassified,-0.01023424512737,1.750484641
+T168_BMI_Alcohol_HTN,Alcohol,HTN,Downstream surrogate of exposure,TRUE,Overadjustment,0.00754859424642551,1.750484641
