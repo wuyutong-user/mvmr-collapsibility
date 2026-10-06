@@ -88,15 +88,6 @@ checks. Source-copy hashes are historical records; current bytes are recorded
 in `release_manifest_sha256.csv`. Path/documentation edits and retained files
 are listed in `public_source_provenance.csv`.
 
-## AI assistance
-
-ChatGPT/Codex assisted manuscript revisions, the reporting revision for the nine
-Collider labels, edits and exports of Figures 4 and 5, and preparation of this
-public package. The historical simulation audit also records ChatGPT assistance.
-These statements describe known use; they do not establish the origin of every
-historical script. AI assistance does not replace scientific verification or
-author responsibility for the code, analysis and submitted findings.
-
 ## HTML copy
 
 The companion HTML provides readable source and an exact embedded ZIP.
