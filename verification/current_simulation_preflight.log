@@ -1,0 +1,40 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+SOURCE MANIFEST PASS: 27 files
+PARSE PASS: 21 R files
+Running formal validation tests...
+TEST 01 PASS: all primary direct configurations have fixed K
+TEST 07 PASS: positive weighted alignment achieved
+TEST 08 PASS: negative weighted alignment achieved
+TEST 06 PASS: shared variants can coexist with weighted orthogonality
+TEST 05 PASS: no-shared summary geometry gives delta=0
+TEST 09 PASS: alpha_Z=0 frozen for B/D/E/F
+TEST 10 PASS: alpha_Z!=0 frozen for A/C
+TEST 10 PASS: continuous six-DAG population summary relations match theorem alpha_Z
+TEST 02 PASS: strict unadjusted and adjusted regressions use identical SNP rows
+TEST 04 PASS: Theorem 1 identity holds to numerical tolerance
+TEST 03 PASS: same-set estimator uses one common outcome vector and weight definition
+TEST 03 PASS: weighted summary regression point estimates and SEs match base R lm()
+TEST 14 PASS: empirical SD, fixed SE and weighted-lm model SE are separated
+TEST 15 PASS: type I error is assigned only under beta_X=0
+TEST 16 PASS: power is assigned only under beta_X!=0
+TEST 18 PASS: Theorem 3 preserves structural sign across S>0
+TEST 17 PASS: Theorem 3 preserves structural zero/nonzero status across S>0
+TEST 19 PASS: exact offset gives total response=0 with structural response!=0
+TEST 20 PASS: scale-only response can be nonzero when structural response=0
+TEST 21 PASS: conditional F is class-independent and Eq. 7/package crosswalk is explicit
+OPTIONAL PACKAGE CROSS-CHECK SKIPPED: MVMR not installed
+TEST 05 PASS: vectorised linear GWAS and glm.fit binary GWAS match base R reference fits
+TEST 11 PASS: two-sample samples are disjoint and independently generated
+TEST 12 PASS: same-sample exposure and outcome data are identical
+TEST 13 PASS: binary reference prevalence matches target
+TEST 22 PASS: same seed reproduces identical replicate output
+Running exact theorem modules...
+Running 10-replicate continuous smoke test...
+Running 5-replicate binary smoke test...
+
+PREFLIGHT PASS.
+Review simulation_output/validation/preflight_audit.txt before production.
