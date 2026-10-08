@@ -1,0 +1,45 @@
+$timestamp
+[1] "2026-09-05 13:23:28 UTC"
+
+$protocol_version
+[1] "1.1"
+
+$source_manifest_pass
+[1] TRUE
+
+$parse_pass
+[1] TRUE
+
+$validation_pass
+[1] TRUE
+
+$mvmr_package_crosscheck
+[1] TRUE
+
+$theorem1_max_abs_identity_error
+[1] 1.387779e-15
+
+$theorem23_max_abs_decomposition_error
+[1] 3.330669e-16
+
+$continuous_smoke_all_converged
+[1] TRUE
+
+$binary_smoke_all_converged
+[1] TRUE
+
+$continuous_smoke_median_F_min
+[1] 25.89482
+
+$binary_smoke_median_F_min
+[1] 25.43919
+
+$binary_smoke_mean_prevalence
+[1] 0.10056
+
+$frozen_strength_calibration_present
+[1] TRUE
+
+$effect_rms_primary_used
+[1] 0.11
+

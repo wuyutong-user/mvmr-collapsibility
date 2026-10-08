@@ -1,0 +1,4 @@
+"strength_level","target_F","recommended_effect_rms","achieved_median_F_min","achieved_mean_F_min"
+"strong",25,0.11,25.962517665201,25.9609711891517
+"borderline",10,0.06,9.58123859740009,9.60289196468845
+"weak",5,0.04,4.8446457069383,4.89211347295939

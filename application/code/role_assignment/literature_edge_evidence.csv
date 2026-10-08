@@ -1,0 +1,6 @@
+candidate,outcome,from,to,direction_status,evidence_tier,reference_id,note
+LDL-C,CAD,LDL-C,CAD,supported,high,Allara_2019,Example row; expand or revise before confirmatory analysis
+LDL-C,AAA,LDL-C,AAA,supported,high,Allara_2019,Example row; expand or revise before confirmatory analysis
+LDL-C,AVS,LDL-C,AVS,supported,high,Allara_2019,Example row; expand or revise before confirmatory analysis
+SBP,IS,BMI,SBP,supported,high,BMI_BP_MR,External evidence supports BMI to SBP
+SBP,IS,SBP,IS,supported,high,BP_stroke_MR,External evidence supports SBP to ischemic stroke
