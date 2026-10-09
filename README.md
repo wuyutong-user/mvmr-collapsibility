@@ -79,15 +79,17 @@ maintenance copy.
 
 ## Figures and environments
 
-This maintenance branch is a candidate for review. The standalone editable
-Figure 1 source is not included. The archived Figure 4 schematic still needs
-its workflow wording updated to distinguish direct-MVMR P/F support from MRSL
-pruning. These figure sources must be reconciled before a final manuscript
-release is published.
+`plotting/` contains a slim set of sources and inputs for numerical main
+Figures 2, 3 and 5. See `plotting/README.md` for commands and dependencies.
+The Figure 3 input combines the required fields of 24 archived binary
+simulation outputs without re-estimation. The slim set excludes PowerPoint
+schematics, obsolete figure scripts and preview exporters.
 
-See `plotting/README.md` for current and historical figure sources. Figures
-requiring raw Monte Carlo replicates need those outputs to be regenerated.
-The archive supplies the listed summary and plotting data.
+The top-level ZIP is still the earlier full maintenance bundle, including
+supplementary plotting sources. Its reconciliation is deferred. The archived
+Figure 4 schematic in that ZIP needs its workflow wording synchronised with
+the manuscript before a final release. Figures 1 and 4 are schematic drawings;
+their PowerPoint sources are outside the slim numerical plotting directory.
 
 The historical application session records R 4.3.2 on Ubuntu 22.04.3 LTS;
 loaded TwoSampleMR, MVMR and MRSL versions were not recorded. Local check
@@ -98,7 +100,7 @@ base R, stats and parallel; figure scripts list their additional dependencies.
 
 `CODE_PROVENANCE.md` describes the source and maintenance records. Existing source manifests and verification records are historical
 records. `MAINTENANCE_VERIFICATION_20261008.json` records the new checks;
-`release_manifest_sha256.csv` records the files in this maintenance package.
+`release_manifest_sha256.csv` records the files in the earlier ZIP bundle.
 
 Within the source bundle, `source_manifest.csv` compares original and public
 source bytes, excluding the three manifests themselves.
@@ -110,7 +112,9 @@ The companion HTML belongs to the v1.0.0 archive. Its embedded ZIP and
 `restore_code_from_html.py` restore that version, rather than this maintenance
 copy. Restoration checks file hashes and does not execute analysis code.
 
-The top-level `Supplementary_Code_1.zip` is a download copy of the source
-bundle. The source manifests cover the files inside that bundle; the ZIP and
-`repository_files_sha256.csv` are delivery files outside those manifests.
-`repository_files_sha256.csv` covers the repository files except itself.
+The top-level `Supplementary_Code_1.zip` retains the earlier full maintenance
+bundle and has not been rebuilt during the plotting-directory reduction. The
+source manifests describe that ZIP's contents; the current slim plotting
+folder has its own `plotting/files_sha256.csv`.
+`repository_files_sha256.csv` covers the current repository candidate,
+including the retained ZIP, except the repository manifest itself.
