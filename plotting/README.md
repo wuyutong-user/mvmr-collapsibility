@@ -50,7 +50,7 @@ R syntax, source preservation and input-grid/summary agreement were checked;
 full image rendering was not repeated in this preparation. Required plotting
 packages must be installed before running the commands above.
 
-The top-level `Supplementary_Code_1.zip` still contains the earlier full
-maintenance bundle. Its reconciliation is deferred; it is not identical to
-this slim plotting directory. `files_sha256.csv` covers this directory except
-itself; `repository_files_sha256.csv` covers the current repository candidate.
+The top-level `Supplementary_Code_1.zip` contains this same slim plotting
+directory. The ZIP and repository sources are synchronised.
+`files_sha256.csv` covers this directory except itself;
+`repository_files_sha256.csv` covers the repository files except itself.

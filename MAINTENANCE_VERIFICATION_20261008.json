@@ -56,5 +56,46 @@
     "missing_historical_inputs_rejected_without_creating_outputs": true,
     "Python_files_parsed": 8,
     "scope": "packaging and historical path configuration; no estimation or production simulation rerun"
+  },
+  "zip_synchronisation_20261009": {
+    "baseline_branch": "submission-update",
+    "baseline_commit": "258e4ddfcba39d5778af3d13febd22dd5d640d97",
+    "status": "prepared_for_upload",
+    "source_bundle_files": 122,
+    "repository_files": 124,
+    "plotting_files": 15,
+    "R_files_parsed": 41,
+    "Python_files_parsed": 6,
+    "RDS_files_read_and_text_scanned": 14,
+    "RDS_annotation_and_private_path_matches": 0,
+    "scientific_CSV_and_RDS_files_byte_identical_to_branch": 38,
+    "reporting_register_and_export_byte_identical": true,
+    "CSV_rows": 168,
+    "CSV_fields": 8,
+    "adjustment_counts": {
+      "Necessary": 5,
+      "Unnecessary": 129,
+      "Overadjustment": 22,
+      "Unclassified": 12
+    },
+    "public_text_files_scanned": 106,
+    "tool_annotation_matches": 0,
+    "private_work_path_matches": 0,
+    "excluded_delivery_files": [
+      "Supplementary_Code_1.zip",
+      "repository_files_sha256.csv"
+    ],
+    "excluded_plotting_materials": [
+      "PowerPoint schematics",
+      "obsolete plotting sources",
+      "supplementary plotting scripts",
+      "preview exporters"
+    ],
+    "checks_not_performed": [
+      "controlled-data application estimation",
+      "production Monte Carlo simulation",
+      "full figure rendering"
+    ],
+    "scope": "source organisation, documentation, checksum manifests and archive synchronisation; numerical inputs and analysis sources retained"
   }
 }
