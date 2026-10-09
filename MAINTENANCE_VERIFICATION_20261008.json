@@ -1,0 +1,101 @@
+{
+  "reporting_register_and_export_byte_identical": true,
+  "python_files_parsed": 8,
+  "import_does_not_change_package_data": true,
+  "optimized_python_rejects_invalid_counts": true,
+  "maintenance_date": "2026-10-08",
+  "status": "local_candidate_not_published",
+  "baseline": "GitHub main downloaded on 2026-10-08; v1.0.0 retained",
+  "R_files_parsed": 60,
+  "candidate_trait_R_expressions_unchanged": true,
+  "application_configuration_unchanged": true,
+  "launcher_baseline_test_from_path_with_spaces_exit_code": 1,
+  "launcher_candidate_test_from_path_with_spaces_exit_code": 0,
+  "synthetic_triad_tests_passed": true,
+  "simulation_R_files_byte_identical": 21,
+  "unchanged_existing_files_excluding_manifests": 147,
+  "CSV_rows": 168,
+  "CSV_fields": [
+    "triad_id",
+    "candidate_trait",
+    "outcome",
+    "working_structural_class",
+    "mediator_like_flag",
+    "target_specific_adjustment_label",
+    "observed_total_marginal_logOR_response",
+    "minimum_conditional_F"
+  ],
+  "adjustment_counts": {
+    "Unnecessary": 129,
+    "Overadjustment": 22,
+    "Unclassified": 12,
+    "Necessary": 5
+  },
+  "checks_not_performed": [
+    "controlled-data application estimation",
+    "production Monte Carlo simulation",
+    "full figure rendering"
+  ],
+  "comment_standardisation_files": [
+    "application/code/10_prepare_candidate_traits_controlled_data.R",
+    "application/code/11_run_uvmr_controlled_data.R",
+    "application/code/12_run_mvmr_one_candidate_controlled_data.R"
+  ],
+  "public_text_files_scanned": 146,
+  "cleaned_R_expressions_identical": true,
+  "simulation_manifest_entries_checked": 27,
+  "RDS_text_values_checked": 13,
+  "CSV_outputs_byte_identical": true,
+  "Python_files_parsed": 8,
+  "public_text_scan_matches": 0,
+  "personal_work_path_matches": 0,
+  "historical_data_fallback_removed": true,
+  "web_upload_preparation": {
+    "historical_audit_project_name_replaced_with_environment_variable": true,
+    "historical_audit_analysis_expressions_unchanged": true,
+    "missing_historical_inputs_rejected_without_creating_outputs": true,
+    "Python_files_parsed": 8,
+    "scope": "packaging and historical path configuration; no estimation or production simulation rerun"
+  },
+  "zip_synchronisation_20261009": {
+    "baseline_branch": "submission-update",
+    "baseline_commit": "258e4ddfcba39d5778af3d13febd22dd5d640d97",
+    "status": "prepared_for_upload",
+    "source_bundle_files": 122,
+    "repository_files": 124,
+    "plotting_files": 15,
+    "R_files_parsed": 41,
+    "Python_files_parsed": 6,
+    "RDS_files_read_and_text_scanned": 14,
+    "RDS_annotation_and_private_path_matches": 0,
+    "scientific_CSV_and_RDS_files_byte_identical_to_branch": 38,
+    "reporting_register_and_export_byte_identical": true,
+    "CSV_rows": 168,
+    "CSV_fields": 8,
+    "adjustment_counts": {
+      "Necessary": 5,
+      "Unnecessary": 129,
+      "Overadjustment": 22,
+      "Unclassified": 12
+    },
+    "public_text_files_scanned": 106,
+    "tool_annotation_matches": 0,
+    "private_work_path_matches": 0,
+    "excluded_delivery_files": [
+      "Supplementary_Code_1.zip",
+      "repository_files_sha256.csv"
+    ],
+    "excluded_plotting_materials": [
+      "PowerPoint schematics",
+      "obsolete plotting sources",
+      "supplementary plotting scripts",
+      "preview exporters"
+    ],
+    "checks_not_performed": [
+      "controlled-data application estimation",
+      "production Monte Carlo simulation",
+      "full figure rendering"
+    ],
+    "scope": "source organisation, documentation, checksum manifests and archive synchronisation; numerical inputs and analysis sources retained"
+  }
+}

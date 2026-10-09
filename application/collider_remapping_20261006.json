@@ -1,0 +1,65 @@
+[
+  {
+    "triad_id": "T042_BMI_SBP_HTN",
+    "candidate": "SBP",
+    "outcome": "HTN",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T071_BMI_HDL_C_CAD",
+    "candidate": "HDL-C",
+    "outcome": "CAD",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T083_BMI_HDL_C_AF",
+    "candidate": "HDL-C",
+    "outcome": "AF",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T114_BMI_Glucose_HF",
+    "candidate": "Glucose",
+    "outcome": "HF",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T117_BMI_Glucose_AAA",
+    "candidate": "Glucose",
+    "outcome": "AAA",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T145_BMI_Smoking_AAA",
+    "candidate": "Smoking",
+    "outcome": "AAA",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T153_BMI_Smoking_AF",
+    "candidate": "Smoking",
+    "outcome": "AF",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T156_BMI_Alcohol_HF",
+    "candidate": "Alcohol",
+    "outcome": "HF",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  },
+  {
+    "triad_id": "T167_BMI_Alcohol_AF",
+    "candidate": "Alcohol",
+    "outcome": "AF",
+    "old": "Overadjustment",
+    "new": "Unclassified"
+  }
+]

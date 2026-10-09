@@ -1,0 +1,11 @@
+{
+  "weighted_geometry_max_abs_rho_error": 3.3306690738754696e-16,
+  "theorem1_identity_max_abs_error": 4.996003610813204e-16,
+  "binary_decomposition_max_abs_error": 4.996003610813204e-16,
+  "continuous_six_dag_population_relation_max_abs_error": 0,
+  "wls_vs_statsmodels_max_abs_diff": 2.220446049250313e-16,
+  "exact_offset_max_abs_total": 4.996003610813204e-16,
+  "exact_offset_min_abs_structural": 0.15826171350692594,
+  "scale_only_min_abs_total": 0.04999999999999989,
+  "statsmodels_available": true
+}

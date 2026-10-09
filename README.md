@@ -1,101 +1,128 @@
-# Supplementary Code 1
+# MVMR collapsibility
 
-Public release prepared 6 October 2026 for the IJE manuscript.
+Code and aggregate results accompanying *A collapsibility-based framework for
+candidate-trait adjustment in multivariable Mendelian randomization using
+summary data*.
 
-The complete source code and reproducibility records are in
-[Supplementary_Code_1.zip](./Supplementary_Code_1.zip). Download and extract the
-archive, then follow the instructions below from the extracted
-`Supplementary_Code_1` directory.
+## Download and run
 
-[Supplementary_Data_1.csv](./Supplementary_Data_1.csv) contains the 168-row
-aggregate application results. The controlled inputs required for a full
-application rerun are described below.
+Run the commands below from the repository root or the extracted code folder.
+The [v1.0.0 manuscript archive](https://github.com/wuyutong-user/mvmr-collapsibility/releases/tag/v1.0.0)
+is retained as the version cited in the manuscript. This maintenance candidate
+improves code organisation and path handling; it retains the archived data.
+The repository source folders and `Supplementary_Code_1.zip` contain the same
+source bundle. Extract the ZIP and enter its `Supplementary_Code_1` folder
+before running the commands below.
 
-## Current reporting version
+## Aggregate application results
 
-The application contains 168 BMI–candidate-trait–outcome triads. The corrected
-adjustment counts are Necessary 5, Unnecessary 129, Overadjustment 22 and
-Unclassified 12. Nine Collider decisions were changed to Unclassified. Working
-roles, estimates, coefficient responses, conditional F statistics and
-Independent-cause decisions were retained.
+[Supplementary_Data_1.csv](./Supplementary_Data_1.csv) contains 168 application
+triads and eight fields: triad ID, candidate trait, outcome, working structural
+class, mediator-like flag, adjustment label, observed logOR response and minimum
+conditional F. It contains aggregate results, rather than participant-level
+or SNP-level GWAS data. The CSV is also included in the code archive.
 
-Run these commands from the package directory with Python 3:
+To reconstruct and check this export using Python 3:
 
 ```sh
 python application/remap_collider_reporting.py
 python application/export_reporting.py
 ```
 
-The second command writes `application/check_output/Supplementary_Data_1.csv`
-and compares it with the supplied expected CSV. These commands reproduce the
-reporting export from archived aggregate results, rather than re-estimating MR
-effects or validating retained-instrument assumptions.
+The scripts reproduce the archived reporting revision and verify the result
+against `application/expected/Supplementary_Data_1.csv`. The adjustment counts
+are Necessary 5, Unnecessary 129, Overadjustment 22 and Unclassified 12.
+They do not re-estimate MR effects or validate retained-instrument assumptions.
+
+## Code entry points
+
+| Task | Entry point | Inputs |
+|---|---|---|
+| Reproduce the aggregate results CSV | `application/export_reporting.py` | Bundled reporting register |
+| Reproduce the archived Collider reporting revision | `application/remap_collider_reporting.py` | Bundled pre-revision register |
+| Check the simulation | `simulation/97_preflight.R` | Bundled configuration and calibration records |
+| Run a new controlled-data application | `application/code/role_assignment/19_run_eraca_pipeline.R` | Authorised GWAS inputs and LD reference |
+| Reproduce numerical main figures | `plotting/README.md` | Bundled summaries and frozen plotting inputs |
+
+The original preparation scripts `application/code/09_*` through `12_*` are
+retained as historical sources. Use the documented role-assignment pipeline
+for a new application run. Historical reporting postprocessors are under
+`application/provenance/`.
 
 ## Simulation
 
 `simulation/` contains the simulation v1.1 sources, archived scenario summaries,
-exact calibrations and the strength-pilot freeze. All original simulation R
-files are unchanged. The original MD5 manifest is retained as
-`SOURCE_MANIFEST_MD5_original.tsv`; `SOURCE_MANIFEST_MD5.tsv` records the public
-files, including the dated clarification of the historical audit document.
+exact calibrations and the strength-pilot freeze. The simulation R sources are
+unchanged in this maintenance copy.
 
-Run the preflight in a working copy, because it creates validation outputs:
+Run the preflight in a working copy; it creates validation outputs:
 
 ```sh
 cd simulation
 Rscript 97_preflight.R
 ```
 
-Use `RUN_SERVER_100_CORES.sh` only for a new production run with suitable compute
-resources. Historical `nominal_adjustment_class` fields are preserved as
-simulation metadata; the corrected Collider interpretation is described in
-`COLLIDER_INTERPRETATION_20261006.md`.
+See `simulation/README.md` for configuration and production-run instructions.
+Historical `nominal_adjustment_class` fields remain as simulation metadata;
+`COLLIDER_INTERPRETATION_20261006.md` documents the reporting interpretation.
 
-## Application inputs and analysis pipeline
+## Controlled-data application
 
-`application/code/role_assignment/19_run_eraca_pipeline.R` is the controlled-data
-pipeline. See its `README_SERVER.md` and `environment/paths.env.example` for
-input configuration. Replace example paths with authorised input locations.
-The literature-edge CSV is a starter template, not the complete evidential
-register used for the final reporting view. Historical reporting postprocessors
-are in `application/provenance/` and are not current analysis entry points.
+See `application/code/role_assignment/README_SERVER.md` and
+`environment/paths.env.example` for setup. A full run requires authorised
+GWAS inputs, the relevant evidence register, PLINK and an appropriate LD
+reference. The bundled literature-edge CSV is a starter template, rather than
+the complete evidence register used for the final reporting view.
 
-Participant-level data, controlled SNP-association caches, the LD reference,
-credentials and third-party package libraries are not included. A complete
-application rerun needs authorised GWAS inputs, the relevant evidence register,
-PLINK and the appropriate LD reference. No full GWAS, application estimation or
-production simulation rerun was performed for this public release.
+Direct-MVMR P/F support is recorded separately from MRSL graph pruning and
+the final edge states. Participant-level data, controlled SNP-association
+caches, credentials and third-party package libraries are not distributed.
+No full application estimation or production simulation was rerun for this
+maintenance copy.
 
-## Figures
+## Figures and environments
 
-See `plotting/README.md` for current and historical figure sources. Defaults use
-the package layout and can be overridden with environment variables. Plots
-that need raw Monte Carlo replicates require those outputs to be regenerated;
-only the archived summary and plotting data listed in this package are supplied.
+`plotting/` contains a slim set of sources and inputs for numerical main
+Figures 2, 3 and 5. See `plotting/README.md` for commands and dependencies.
+The Figure 3 input combines the required fields of 24 archived binary
+simulation outputs without re-estimation. The slim set excludes PowerPoint
+schematics, obsolete figure scripts and preview exporters.
 
-## Environments and verification
+The repository and ZIP both contain the same slim numerical plotting sources.
+PowerPoint schematics, obsolete plotting scripts, supplementary plotting
+scripts and preview exporters are outside this bundle. Figures 1 and 4 are
+schematic drawings; their editable sources are outside this numerical code
+bundle. See the manuscript's figures for those diagrams.
 
-The archived application session reports R 4.3.2 on Ubuntu 22.04.3 LTS but does
-not record the loaded versions of TwoSampleMR, MVMR and MRSL. Those historical
-versions remain unavailable. Local check records and the Figure 5 rendering
-session are separate records, not a reconstruction of that environment.
-The simulation uses base R, stats and parallel. See the relevant scripts for
-optional cross-check and plotting dependencies.
+The historical application session records R 4.3.2 on Ubuntu 22.04.3 LTS;
+loaded TwoSampleMR, MVMR and MRSL versions were not recorded. Local check
+records are separate from that historical environment. The simulation uses
+base R, stats and parallel; figure scripts list their additional dependencies.
 
-`PUBLIC_RELEASE_VERIFICATION.json` describes public-release checks.
-`verification_results.json` and `verification/` retain the preceding revision's
-checks. Source-copy hashes are historical records; current bytes are recorded
-in `release_manifest_sha256.csv`. Path/documentation edits and retained files
-are listed in `public_source_provenance.csv`.
+## Provenance and verification
 
-## HTML copy
+`CODE_PROVENANCE.md` describes the source and maintenance records. Earlier
+verification records document the original release and prior maintenance checks. `MAINTENANCE_VERIFICATION_20261008.json` records source checks and the
+9 October 2026 ZIP synchronisation; `release_manifest_sha256.csv` records the
+files in the current source bundle.
 
-The companion HTML provides readable source and an exact embedded ZIP.
-`restore_code_from_html.py` can restore all package files from the HTML and
-checks each SHA256 hash. Restoration does not execute analysis code.
+The source bundle excludes the top-level ZIP and `repository_files_sha256.csv`
+to avoid including an archive or its repository checksum list inside itself.
+`source_manifest.csv` records current source bytes and retained original hashes
+where available; new derived inputs have no single original-file hash.
+It excludes the three bundle manifests themselves.
+`archive_manifest_sha256.csv` covers bundle files except itself and the release
+manifest. `release_manifest_sha256.csv` covers bundle files except itself.
+Historical manifests are preserved under
+`application/provenance/maintenance_baseline_20261008/`.
 
-Top-level `source_manifest.csv` compares original and public source bytes,
-excluding the three manifest files themselves. `archive_manifest_sha256.csv`
-covers the public files apart from that manifest and the release manifest.
-`release_manifest_sha256.csv` covers every package file except itself.
-Original manifests are retained under `application/provenance/original_*.csv`.
+The companion HTML belongs to the v1.0.0 archive. Its embedded ZIP and
+`restore_code_from_html.py` restore that version, rather than this maintenance
+copy. Restoration checks file hashes and does not execute analysis code.
+
+`Supplementary_Code_1.zip` is the synchronised download copy of the source
+bundle, under a single `Supplementary_Code_1/` folder. Its files match the
+repository source files byte for byte. `plotting/files_sha256.csv` covers the
+slim plotting directory except that manifest itself.
+`repository_files_sha256.csv` covers the repository files, including the ZIP,
+except the repository manifest itself.

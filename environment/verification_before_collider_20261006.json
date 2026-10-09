@@ -1,0 +1,37 @@
+{
+  "verification_date": "2026-10-06",
+  "frozen_simulation_source_manifest": {
+    "files": 27,
+    "all_original_md5_match": true
+  },
+  "r_source_parse": {
+    "files": 58,
+    "passed": true
+  },
+  "python_source_parse": {
+    "files": 4,
+    "passed": true
+  },
+  "simulation_preflight": {
+    "passed": true,
+    "continuous_smoke_replicates": 10,
+    "binary_smoke_replicates": 5,
+    "optional_MVMR_package_crosscheck": "not run: not installed in local default library"
+  },
+  "application_existing_synthetic_tests": "passed; software fixtures, not validation of causal roles",
+  "final_reporting_export": {
+    "rows": 168,
+    "matches_submitted_csv_byte_for_byte": true,
+    "adjustment_labels": {
+      "Necessary": 5,
+      "Unnecessary": 129,
+      "Overadjustment": 31,
+      "Unclassified": 3
+    }
+  },
+  "full_production_simulation_rerun": false,
+  "controlled_application_rerun": false,
+  "plot_rendering_repeated": false,
+  "historical_TwoSampleMR_MVMR_MRSL_versions_recovered": false,
+  "pending_methodological_questions_resolved": false
+}

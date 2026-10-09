@@ -1,0 +1,55 @@
+{
+  "verification_date": "2026-10-06",
+  "revision": "Collider role alone is insufficient; nine decisions remapped to Unclassified",
+  "frozen_simulation_source_manifest": {
+    "files": 27,
+    "all_original_md5_match": true
+  },
+  "previous_software_checks": "environment/verification_before_collider_20261006.json; inherited historical checks, not repeated here",
+  "collider_remapping_adapter": {
+    "passed": true,
+    "only_nine_reporting_records_changed": true
+  },
+  "final_reporting_export": {
+    "rows": 168,
+    "matches_submitted_csv_byte_for_byte": true,
+    "adjustment_labels": {
+      "Unnecessary": 129,
+      "Overadjustment": 22,
+      "Unclassified": 12,
+      "Necessary": 5
+    }
+  },
+  "figure_4_source_vector_export": {
+    "completed": true,
+    "editable_source": "plotting/collider_revision_20261006/Figure4_collider_revision_20261006.pptx",
+    "visual_check_completed": true
+  },
+  "figure_5_rendering": {
+    "completed": true,
+    "roles": [
+      5,
+      9,
+      28,
+      23,
+      0,
+      103
+    ],
+    "decisions": [
+      5,
+      129,
+      22,
+      12
+    ],
+    "conditional_F_groups": [
+      112,
+      56
+    ]
+  },
+  "independent_cause_mapping_changed": false,
+  "theorem_1_3_changed": false,
+  "full_production_simulation_rerun": false,
+  "controlled_application_rerun": false,
+  "historical_TwoSampleMR_MVMR_MRSL_versions_recovered": false,
+  "scope": "The Collider mapping is revised; retained-instrument validity has not been re-audited. Independent-cause rules and data are unchanged."
+}

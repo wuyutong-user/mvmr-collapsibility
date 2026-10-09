@@ -1,0 +1,34 @@
+{
+  "release_date": "2026-10-06",
+  "purpose": "public supplementary code preparation",
+  "original_source_unchanged": true,
+  "simulation_R_files_unchanged": 21,
+  "original_scientific_CSV_and_RDS_files_byte_identical": 51,
+  "python_files_parsed": 8,
+  "R_files_parsed": 60,
+  "RDS_files_read_and_private_paths_checked": 13,
+  "public_simulation_MD5_manifest_entries_verified": 27,
+  "application_nonpath_configuration_unchanged": true,
+  "environment_path_overrides_verified": true,
+  "relocated_plotting_defaults_verified": true,
+  "reporting_remap_and_export_byte_match": true,
+  "triads": 168,
+  "adjustment_counts": {
+    "Unnecessary": 129,
+    "Overadjustment": 22,
+    "Unclassified": 12,
+    "Necessary": 5
+  },
+  "pptx_drawing_parts_unchanged": true,
+  "pptx_identity_metadata_removed": true,
+  "text_files_scanned_before_final_packaging": 140,
+  "known_private_path_and_strong_secret_pattern_matches": 0,
+  "R_runtime_for_public_release_checks": "R version 4.3.2 (2023-10-31 ucrt)",
+  "Python_runtime_for_public_release_checks": "3.12.14",
+  "checks_not_performed": [
+    "full production simulation",
+    "GWAS or application estimation rerun",
+    "full Figure 2/3 and supplementary plot rendering",
+    "submission portal upload"
+  ]
+}
